@@ -1,0 +1,46 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+@layer util {
+    .flex {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+@layer defaults  {
+    input {
+        border: 1px solid grey;
+        border-radius: 999em;
+        padding: 0.125em 0.5em;
+    }
+
+    h1 {
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+        font-variant: small-caps;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        padding-bottom: 0.5em;
+        font-size: 1.2rem;
+    }
+
+    label {
+        padding-left: 0.5rem;
+        font-size: 0.75rem;
+        line-height: 1.5em;
+        color: grey;
+    }
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+h1 {
+    border-bottom: 1px solid lightgray;
+}
