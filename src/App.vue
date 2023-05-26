@@ -77,7 +77,7 @@ function evaluateCurrencyExchange(currencyRate) {
             <label>Currency</label>
             <label>Amount</label>
             <i-autocomplete class="currency-select" v-model="model" :items="items" @change="onCurrencySelected"></i-autocomplete>
-            <input v-model="currencyValue" type="number">
+            <input v-model="currencyValue">
         </div>
         <div v-if="model.length > 0" class="currency-rates-container">
             <h2>{{ currencyValue }} {{currentCurrency}}</h2>
