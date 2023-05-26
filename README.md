@@ -9,7 +9,7 @@
    2. When a currency is selected in the dropdown, it should display the selected currency code
 
 - Amount
-   1. Textbox to input a valid currency 
+   1. Textbox to input a valid amount 
 
 - Results
    1. When both currency and amount are valid, display a table of currencies and their equivalent amounts
