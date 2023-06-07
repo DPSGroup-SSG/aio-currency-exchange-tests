@@ -16,5 +16,5 @@
 
 
 # Test Requirements
-- Write test cases/suites for the above business requirements
+- Write test cases/suites for the above business requirements in Cypress
 - Implement the test cases/suites using Cypress
